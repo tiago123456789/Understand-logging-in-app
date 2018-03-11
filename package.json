@@ -1,0 +1,25 @@
+{
+  "name": "Understand-logging-in-app",
+  "version": "1.0.0",
+  "description": "Understand logging in application nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiago123456789/Understand-logging-in-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiago123456789/Understand-logging-in-app/issues"
+  },
+  "homepage": "https://github.com/tiago123456789/Understand-logging-in-app#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "winston": "^3.0.0-rc2"
+  }
+}
